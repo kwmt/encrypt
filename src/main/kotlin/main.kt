@@ -1,12 +1,20 @@
 fun main(args: Array<String>) {
 
-    val cipherText = "BRVKLNR"
+//    val cipherText = "BRVKLNR"
+//
+//    (0..25).forEach {
+//        val result = decrypt(cipherText.toCharArray().toList(), key = it)
+//        println("key=$it,\t ${result.joinToString(separator = "")}")
+//    }
+
+
+    // p26 クイズ1
+    val cipherText = "PELCGBTENCUL"
 
     (0..25).forEach {
         val result = decrypt(cipherText.toCharArray().toList(), key = it)
         println("key=$it,\t ${result.joinToString(separator = "")}")
     }
-
 }
 
 
